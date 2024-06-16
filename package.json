@@ -1,0 +1,92 @@
+{
+  "name": "react-tour",
+  "version": "1.0.0",
+  "description": "react-tour is a lightweight and highly customizable library for creating interactive guided tours in your ReactJs and NextJs applications. Enhance user onboarding and feature discovery with step-by-step instructions and visually appealing tour components.",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\""
+  },
+  "author": "Rana Hardik",
+  "license": "MIT",
+  "keywords": [
+    "react-tour",
+    "react-tours",
+    "guided-tour",
+    "react-guided-tour",
+    "interactive-tour",
+    "react-interactive-tour",
+    "feature-tour",
+    "react-feature-tour",
+    "react-onboarding",
+    "onboarding-tour",
+    "react-walkthrough",
+    "walkthrough-tour",
+    "react-walkthrough-tour",
+    "react-tour-guide",
+    "tour-component",
+    "react-tour-component",
+    "react-intro",
+    "intro-tour",
+    "react-intro-tour",
+    "tour-js",
+    "react-tour-js",
+    "react-step-by-step",
+    "step-by-step-tour",
+    "user-onboarding",
+    "user-tour",
+    "react-tooltip-tour",
+    "next-tour",
+    "next-tours",
+    "guided-tour-next",
+    "next-guided-tour",
+    "interactive-tour-next",
+    "next-interactive-tour",
+    "feature-tour-next",
+    "next-feature-tour",
+    "next-onboarding",
+    "next-walkthrough",
+    "walkthrough-tour-next",
+    "next-walkthrough-tour",
+    "next-tour-guide",
+    "tour-component-next",
+    "next-tour-component",
+    "next-intro",
+    "intro-tour-next",
+    "next-intro-tour",
+    "next-tour-js",
+    "next-step-by-step",
+    "step-by-step-tour-next",
+    "next-user-onboarding",
+    "user-tour-next",
+    "next-tooltip-tour"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.1.1",
+    "@types/react": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "eslint": "^9.1.1",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "globals": "^15.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.8.0"
+  },
+  "dependencies": {
+    "styled-components": "^6.1.10"
+  }
+}
