@@ -1,6 +1,6 @@
-# react-tour
+# react-interactive-tour
 
-> React Tour is a lightweight and highly customizable library for creating interactive guided tours in your ReactJs and NextJs applications. Enhance user onboarding and feature discovery with step-by-step instructions and visually appealing tour components.
+> react-interactive-tour is a lightweight and highly customizable library for creating interactive guided tours in your ReactJs and NextJs applications. Enhance user onboarding and feature discovery with step-by-step instructions and visually appealing tour components.
 
 <br/>
 
@@ -11,13 +11,13 @@
 # Install
 
 ```
-npm install react-tour
+npm install react-interactive-tour
 ```
 
 or
 
 ```
-yarn add react-tour
+yarn add react-interactive-tour
 ```
 
 <br/><br/>
@@ -42,7 +42,7 @@ yarn add react-tour
 
 ```JSX
 import MyCom from './Components/MyCom'
-import ReactTourProvider from 'react-tour';
+import ReactTourProvider from 'react-interactive-tour';
 
 function App() {
 
@@ -75,14 +75,14 @@ export default App
 ### Wrap ReactTour component to your component:
 
 ```JSX
-import ReactTour from 'react-tour';
+import ReactTour from 'react-interactive-tour';
 import {ShimmerButton} from "shimmer-effect-react";
 
 function Page() {
 
   return (
     <>
-        <ReactTour index={0} position='top' body={<div><strong>React Tour</strong><br />Welcome to react tour.</div>}>
+        <ReactTour index={0} position='top' body={<div><strong>React Interactive Tour</strong><br />Welcome to react interactive tour.</div>}>
             <ShimmerButton size='lg' mode="light" />
           </ReactTour>
     </>
@@ -108,10 +108,10 @@ export default Page
 
 # More Features Coming Soon:
 
-Stay tuned for exciting updates and expansions to the `react-tour` library! Our team is hard at work developing additional components and features to further enhance your experience with react tour in React applications. Keep an eye on our roadmap for upcoming releases, and be the first to explore new functionalities as they become available.
+Stay tuned for exciting updates and expansions to the `react-interactive-tour` library! Our team is hard at work developing additional components and features to further enhance your experience with react tour in React applications. Keep an eye on our roadmap for upcoming releases, and be the first to explore new functionalities as they become available.
 
 <br/><br/>
 
 # Contributions and Feedback:
 
-We welcome contributions, bug reports, and feature requests from the community. Whether you're interested in submitting a pull request, reporting a bug, or sharing your ideas for enhancements, your input is invaluable in shaping the future of the `react-tour` library. Thank you for your support and collaboration!
+We welcome contributions, bug reports, and feature requests from the community. Whether you're interested in submitting a pull request, reporting a bug, or sharing your ideas for enhancements, your input is invaluable in shaping the future of the `react-interactive-tour` library. Thank you for your support and collaboration!

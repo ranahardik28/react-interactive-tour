@@ -1,7 +1,7 @@
 {
-  "name": "react-tour",
+  "name": "react-interactive-tour",
   "version": "1.0.0",
-  "description": "react-tour is a lightweight and highly customizable library for creating interactive guided tours in your ReactJs and NextJs applications. Enhance user onboarding and feature discovery with step-by-step instructions and visually appealing tour components.",
+  "description": "react-interactive-tour is a lightweight and highly customizable library for creating interactive guided tours in your ReactJs and NextJs applications. Enhance user onboarding and feature discovery with step-by-step instructions and visually appealing tour components.",
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
